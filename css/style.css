@@ -97,7 +97,7 @@ a:hover{
 /* Banner Section Begin Here */
 
 .banner-img{
-  width: 80%;
+  width: 100%;
   margin-bottom: 40px;
   
 }
@@ -136,14 +136,14 @@ p{
 .left{
   width: 45%;
   float: left;
-  padding-right: 20px;
+  margin-right: 20px;
   margin-bottom: 40px;
 }
 
 .right{
   width: 45%;
   float: right;
-  padding-left: 20px;
+  margin-left: 20px;
   margin-bottom: 40px;
 }
 
