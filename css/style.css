@@ -27,6 +27,7 @@ font-family: 'Ubuntu', sans-serif;
   width: 80%;
   margin: auto;
   padding-bottom: 30px;
+  display: flow-root;
 }
 
 /* img{
@@ -37,6 +38,7 @@ font-family: 'Ubuntu', sans-serif;
   width: 84%;
   margin: auto;
   padding-bottom: 20px;
+  display: flow-root;
 }
 
 .inner a{
@@ -56,7 +58,7 @@ Global CSS Section End Here
 
 .nav-bar{
   width: 100%;
-  float: left;
+  display: flow-root;
 }
 
 .logo{
@@ -66,7 +68,7 @@ Global CSS Section End Here
 }
 
 .menu{
-  width: 50%;
+  width: 70%;
   float: right;
   text-align: right;
   /* padding: 10px 0; */
@@ -95,8 +97,14 @@ a:hover{
 /* Banner Section Begin Here */
 
 .banner-img{
-  width: 100%;
+  width: 80%;
   margin-bottom: 40px;
+  
+}
+
+.banner-img img{
+  width: 100%;
+  background-size: cover;
   
 }
 
@@ -128,12 +136,14 @@ p{
 .left{
   width: 45%;
   float: left;
+  padding-right: 20px;
   margin-bottom: 40px;
 }
 
 .right{
   width: 45%;
   float: right;
+  padding-left: 20px;
   margin-bottom: 40px;
 }
 
@@ -160,8 +170,13 @@ p{
   text-align: center;
 }
 
-.subscribe .container .newsletter{
-  width: 60%;
+.subscribe .container .inner{
+  width: 80%;
+  display: flow-root;
+}
+
+.subscribe .container .inner .newsletter{
+  width: 80%;
   text-align: center;
   margin: auto;
   padding: 40px 0;
@@ -183,6 +198,8 @@ p{
 
 .subscribe .container .mail .one{
   padding-bottom: 8px;
+  width: 70%;
+  float: left;
 }
 
 .subscribe .container .mail .one input{
@@ -196,8 +213,13 @@ p{
 }
 
 .subscribe .container .mail .two{
-  color: #626262;
+  width: 30%
   float: right;
+  display: flow-root;
+}
+
+.subscribe .container .mail .two img{
+ float: right; 
 }
 
 /* Subscribe Section End Here */
