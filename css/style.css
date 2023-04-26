@@ -156,7 +156,7 @@ p{
 /* Subscribe Section Start Here */
 
 .subscribe{
-  width: 100%;
+  /* width: 100%; */
   /* height: 300px; */
   background-color: #f0f0f0;
   display: flow-root;
@@ -282,7 +282,7 @@ p{
 } */
 
 .footer-container{
-  width: 90%;
+  width: 80%;
   margin: auto;
 }
 
